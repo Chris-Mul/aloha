@@ -107,8 +107,8 @@
     }
     
     .container {
-        width: 1240px;
-        margin:auto;
+
+        margin: 0 40px;
     }
 
 
@@ -146,13 +146,15 @@
 
 
     header{
-        height:160px;
+        height:110px;
         display: flex;
         justify-content:space-between;
     }
+
+    
     
     .logo{
-    width:200px;
+    width:  180px;
     height: 150px;
     order:1;
     flex-grow: 1;
@@ -160,9 +162,7 @@
 
     nav{
         text-align: center;
-        order:2;
-        flex-grow: 2;
-        padding-top:70px;
+        padding-top:55px;
     }
     
 
@@ -175,11 +175,8 @@
     }
 
     .cart{
-        height:100px;
-        width:100px;
-        padding-top:40px;
-        order:3;
-        flex-grow: 1;
+        padding-top:30px;
+        width:80px;
     }
 
    
@@ -391,7 +388,7 @@
         background-color: #2B2B2B;
         color:whitesmoke;
         margin: 10px auto;
-        height: 250px;
+       
         display: flex;
         flex-wrap: nowrap;
         justify-content: space-between;

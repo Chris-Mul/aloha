@@ -3,17 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="css/flickity.min.css">
     <title>Document</title>
 </head>
 
 <body>
-    <section class="container">
+    
 
         <header>
             <div class="logo-cont">
@@ -24,10 +25,10 @@
 
             <nav>
                 <ul>
-                    <li>ABOUT</li>
-                    <li>SHOP</li>
-                    <li>FEATURED</li>
-                    <li>UPDATES</li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#shop">SHOP</a></li>
+                    <li><a href="#featured">FEATURED</a></li>
+                    <li><a href="#updates">UPDATES</a></li>
                 </ul>
             </nav>
             <div class="cart-cont">
@@ -35,89 +36,136 @@
         </div>
 
         </header>
-    </section>
+   
     <div class="banner"> 
-        <div class="container">
+       
             <h2>NEW COLLECTION</h2>
             <h1> Spring/Summer 2019</h1>
-        </div>
+        
     </div>
 
-    <div class="info">
-        <h2>Hand-Crafted <span>Styles</span></h2>
-        <p>Aloha apparel Co. sells only the finest travel clothing
-            Browse our current selection of products or sign-up for updates below. </p>
-    </div>
+    <section id='about'>
+        <div class="info">
+            <h2>Hand-Crafted <span>Styles</span></h2>
+            <p>Aloha apparel Co. sells only the finest ready-to travel clothing.
+                Browse our current selection of products or sign-up for updates below. </p>
+        </div>
+    </section>
 
-    <section class="flx">
+    <section class="flx" id="shop">
     
-        <div class="mens">
-            <h3>MENS</h3>
+        <div class="mens item">
+            <h3>MEN'S</h3>
         </div>
     
-        <div class="trends">
+        <div class="trends item">
             <h3>TRENDS</h3>
         </div>
     
     
 
-        <div class="glasses">
+        <div class="glasses item">
             <h3>GLASSES</h3>
         </div>
 
-        <div class="sale">
+        <div class="sale item">
             <h3>SALE</h3>
         </div>
 
-        <div class="bags">
+        <div class="bags item">
             <h3>BAGS</h3>
         </div>
 
 
-        <div class="womens">
+        <div class="womens item">
             <h3>WOMENS</h3>
         </div>
     
     </section>
 
 
-    <h2>Most-loved <span>Products</span></h2>
+    <h2 id="carousel-header">Most-loved <span>Products</span></h2>
 
-    <div class="carousel">
-        <div class="checked-dress">
-            <img src="images/checked-stretch-dress.jpg" alt="checked dress">
-
-            <p>DRESSES</p>
-            <h4> Checked stretch Dress</h4>
-            <p>$129.00</p>
+    <div class="carousel" id="featured">
+        <div class="carousel-cell">
+                <img src="images/checked-stretch-dress.jpg" id="dress-resp" alt="checked dress">
+                <p>DRESSES</p>
+                <h4> Checked stretch Dress</h4>
+                <p>$129.00</p>
+            
         </div>
 
-        <div class="backpack">
-            <img src="images/blue-hipster-backpack.jpg" alt="backpack">
-            <p>BAGS</p>
-            <h4>Blue hipster backpack</h4>
-            <p>$69</p>
+        <div class="carousel-cell">
+            <div div class="hide-mobile">
+                <img src="images/blue-hipster-backpack.jpg" id="backpack-resp" alt="backpack">
+                <p>BAGS</p>
+                <h4>Blue hipster backpack</h4>
+                <p>$69</p>
+            </div>
         </div>
-        <div class="denim">
-            <img src="images/demin-overall-shorts.jpg" alt="denim overall shorts">
-            <p>DENIM</p>
-            <h4>Denim overall shorts</h4>
-            <p>$80</p>
+
+        <div class="carousel-cell">
+            <div div class="hide-mobile" id="hidetabl" >
+                <img src="images/demin-overall-shorts.jpg" alt="denim overall shorts">
+                <p>DENIM</p>
+                <h4>Denim overall shorts</h4>
+                <p>$80</p>
+            </div>
         </div>
-        <div class="pink-dress">
-            <img src="images/pink-dotted-dress.jpg" alt="pink dotter dress">
-            <p>DRESSES</p>
-            <h4>Pink Dotted Dress</h4>
-            <p>$99</p>
+        
+        <div class="carousel-cell">
+            <div div class="hide-mobile" id="hidetabl">
+                <img src="images/pink-dotted-dress.jpg" alt="pink dotter dress">
+                <p>DRESSES</p>
+                <h4>Pink Dotted Dress</h4>
+                <p>$99</p>
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div div class="hide-mobile" id="hidetabl">
+                <img src="images/blue-silk-dress.jpg" alt="pink dotter dress">
+                <p>DRESSES</p>
+                <h4>Pink Dotted Dress</h4>
+                <p>$99</p>
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div div class="hide-mobile" id="hidetabl">
+                <img src="images/cotton-blue-shirt.jpg" alt="pink dotter dress">
+                <p>DRESSES</p>
+                <h4>Pink Dotted Dress</h4>
+                <p>$99</p>
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div div class="hide-mobile" id="hidetabl">
+                <img src="images/cotton-yellow-tshirt.jpg" alt="pink dotter dress">
+                <p>DRESSES</p>
+                <h4>Pink Dotted Dress</h4>
+                <p>$99</p>
+            </div>
+        </div>
+        <div class="carousel-cell">
+            <div div class="hide-mobile" id="hidetabl">
+                <img src="images/stretch-knit-dress.jpg" alt="pink dotter dress">
+                <p>DRESSES</p>
+                <h4>Pink Dotted Dress</h4>
+                <p>$99</p>
+            </div>
         </div>
     </div>
 
-    <div class="sign-up">
+    <div class="sign-up" id="updates">
 
         <h2>Sign-up for <span>Updates</span></h2>
-        <p>Stay updated on our lastest product releases,be first to find out about upcoming sales,<br> and get free
+        <p>Stay updated on our lastest product releases,be first to find out about upcoming sales, and get free
             style tips from our blog Unsubscribe anytime.
         </p>
+
+        <form action="" method="POST">
+            <input type="email" name="email" class="email-box" id="email" placeholder="Your Email">
+            <input type="submit" name="action" value="Subscribe" class="subscribe-button" />
+        </form>
        
 
     </div>
@@ -125,23 +173,31 @@
     <footer>
 
         <div class="footer-left">
-            <h5> &copy 2016 Aloha Apparel Co. Powered by HTML and CSS</h5>
-            <p>604-604-6040. <u>info@alohaapparel.com</u></p>
+            <h5> &copy 2016 Aloha Apparel. <br> Powered by HTML and CSS</h5>
+            <p>604-604-6040. 
+                
+                
+            <u>info@alohaapparel.com</u></p>
 
             <address>1490 W Broadway <br> Vancouver,BC,Canada</address>
         </div>
 
         <div class="footer-right">
             <ul>
-                <li class="facebook"><a href="#"></a><div class="hide-mobile">Facebook</div></a></li>
-                <li class="twitter"><a href="#"></a><div class="hide-mobile">Twitter</div></li>
-                <li class="instagram"><a href="#"></a><div class="hide-mobile">Instagram</div></li>
-                <li class="pinterest"><a href="#"></a><div class="hide-mobile">Pinterest</div></li>
-                <li class="google"><a href="#"></a><div class="hide-mobile">Google+</div></li>
+                <li class="facebook"><a href="#"> <div id="hide">Facebook</div></a></li>
+                <li class="twitter"><a href="#"><div id="hide">Twitter</div></a></li>
+                <li class="instagram"><a href="#"><div id="hide">Instagram</div></a></li>
+                <li class="pinterest"><a href="#"><div id="hide">Pinterest</div></a></li>
+                <li class="google"><a href="#"><div id="hide">Google+</div></a></li>
             </ul>
         </div>
 
     </footer>
+    <script src="js/jQuery.3.3.1.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
+    <script src="js/script.js"></script>
+    
+
 </body>
 
 </html>

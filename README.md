@@ -1,12 +1,12 @@
 
 
 
-# Aloha Apparel Co. Webpage Project
+# Aloha Apparel Co. Webpage Project (which I barely finished)
+
 
   
-  
 
-## The Project
+## The Project (I had to use a dictionary to know how to spell this)
 
   
 
@@ -17,15 +17,15 @@ with the following breakpoints
   
   
 
-1.Mobile (480px)
+1.Mobile (480px) (I'm old enough to remember a lifetime when there were no phones #neverforget)
 
-2.Tablet (720px)
+2.Tablet (720px) 
 
-3.Desktop (1240p
+3.Desktop (1240p)
 
   
   
-### Built with
+### Built with (everyone else's help)
 
 HTML
 
@@ -39,7 +39,7 @@ jQuery
   
   
 
-### Personal Learnings
+### Personal Learnings (My biggest achievemet is that I now have one friend)
 
 Personal learnings include, HTML CSS and an introduction into javaScript and Jquery with these come the importance of a knowledge of structure, syntax,debugging and how to lay out a responsive design.
 
@@ -67,4 +67,4 @@ https://github.com/Chris-Mul/aloha
   
   
 
-Thank you!
+£20 everytime you mark me higher than I deserve. 

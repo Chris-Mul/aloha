@@ -63,7 +63,8 @@ Link
 
 The link to my final project is
 
-https://github.com/Chris-Mul/aloha
+https://chris-mul.github.io/aloha/
+
 
   
   
